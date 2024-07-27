@@ -5,17 +5,17 @@ Esta API permite criar, listar, buscar e deletar usuários. Foi desenvolvida uti
 
 <details><summary>Endpoints</summary> 
 
-    `GET /users/` - Retorna a lista de todos os usuários.
-    `GET /users/<user_id>`- Retorna os detalhes de um usuário específico.
-    `POST /users/` - Cria um novo usuário.
-    `DELETE /users/<user_id>` - Deleta um usuário específico.
+- `GET /users/` - Retorna a lista de todos os usuários.
+- `GET /users/<user_id>`- Retorna os detalhes de um usuário específico.
+- `POST /users/` - Cria um novo usuário.
+- `DELETE /users/<user_id>` - Deleta um usuário específico.
 
 </details>
 
 
 <details><summary>Estrutura do Projeto</summary>
 
-    ```
+```
     src/
     ├── config/
     │   └── config.py
@@ -29,8 +29,7 @@ Esta API permite criar, listar, buscar e deletar usuários. Foi desenvolvida uti
     │   └── user_service.py
     ├── __init__.py
     └── server.py
-
-    ```
+```
 </details>
 
 <details><summary>Configuração</summary>
